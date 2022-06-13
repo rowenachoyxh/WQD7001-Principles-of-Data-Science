@@ -1,0 +1,192 @@
+---
+title: "**User Manual**"
+output:
+  html_document: 
+    theme: cosmo
+    highlight: textmate
+    fig_caption: false
+    toc: yes
+    toc_float: yes
+---
+
+```{r global_options1, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+```
+
+
+# Instruction
+
+```{r pressure, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Tab panel.jpeg")
+```
+
+ - Dashboard
+   - All the interactive dashboard will be shown in this tab panel
+   
+ - User Manual
+   - This tab panel is used to guide the users on how to use this app.
+
+ - Process
+   - This tab panel will indicate the introduction of this app and what the method we used to create this app.
+   
+ - About
+   - The project detail is shown in this tab.
+
+# User Guide
+
+## Map Overview
+>[Step 1] 
+ 
+```{r pressure1, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Step A1.png")
+```
+   
+  [a] Choose a year (from year 2000 to year 2021) you wish to view on the tourist arrivals in Malaysia
+  
+  [b] Choose the country to view the tourist arrivals in Malaysia. You are able to choose more than 1 country.
+
+
+```{r pressure2, echo=FALSE, out.width = '60%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Step A1A.png")
+```
+  
+  [c] You could click the 'Select All Country' Button to select all countries to plot the graph.
+  
+>[Step 2]
+
+```{r pressure3, echo=FALSE, out.width = '60%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Step A2.png")
+```
+
+  [a] After select the year and country(s), click the 'Plot' button to plot the graph and view the table of the number of arrivals
+  
+  [b] You could click the 'Unselect All Country' button to unselect the country chosen.
+  
+>[Step 3]
+
+```{r pressure4, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot1.png")
+```
+
+This gradient scale map will then shown after you click the 'Plot' button.
+
+
+```{r pressure5, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 1a.png")
+```
+
+When your cursor move to the country on the map, the total number of tourist arrivals on the selected country to Malaysia will be shown.
+
+You are able to zoom in the map by clicking the option on the top right of the map.
+
+> [Step 4]
+
+```{r pressure6, echo=FALSE, out.width = '75%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/table1.png")
+```
+
+A list of selected countries visiting Malaysia on the selected year is shown.
+
+  [a] You could choose the number of entries showed on every page of the table.
+  
+  [b] From here, you are able to jump to the other page of the table.
+  
+  [c] You are able to search the country or the region to view the tourist arrivals.
+  
+## Yearly Overview
+
+> [Step 1]
+
+```{r pressure7, echo=FALSE, out.width = '50%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Step B1.png")
+```
+
+  [a] First, you are required to choose a country
+  
+  [b] After choosing the country, click the 'Plot' button to show the result.
+  
+>[Step 2]
+
+```{r pressure8, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 2.png")
+```
+
+Click the 'Play' button to view the graph.
+
+```{r pressure9, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 3.png")
+```
+
+The tourist arrivals from the selected country to Malaysia from year 2000 to year 2021 will be shown.
+
+> [Step 4]
+
+```{r pressure10, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 4.png")
+
+```
+
+This is the graph shown below the tourist arrivals area chart from year 2000 to year 2021. It shows the yearly percentage change of the tourist arrivals from year 2000 to year 2021.
+
+```{r pressure11, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 5.png")
+```
+
+The last graph on Yearly Overview sub panel is the statistical description of the tourist arrivals from year 2000 to year 2021.
+
+
+## Monthly Overview
+
+> [Step 1]
+
+```{r pressure12, echo=FALSE, out.width = '50%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/step C1.png")
+```
+
+  [a] You are required to select a country from the drop down list
+  
+  [b] Next, you will need to select the year to visualize the graph. You are allowed to select multiple options for comparison purpose.
+  
+> [Step 2]
+
+```{r pressure13, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/step C2.png")
+```
+
+  [a] After you select the country and year(s), click the 'Plot' button to generate the result.
+  
+  [b] You could click 'Select All Year' to choose all the year options for generating the result.
+  
+  [c] The 'Unselect All Year' button help you to clear the year chosen.
+  
+> [Step 3]
+
+```{r pressure14, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 6.png")
+```
+
+Click the 'Play' button to view the line chart
+
+> [Step 4]
+
+```{r pressure15, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/Plot 7.png")
+```
+
+ - The monthly tourist arrivals from the selected country to Malaysia on the selected year will be shown.
+
+ - You are able to explore the seasonality trend from the graph generated
+
+
+
+> [Step 5]
+
+```{r pressure16, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("/Users/jylim/Documents/Principle of Data Science/Group Assignment/Picture/table2.png")
+```
+
+  [a] You are able to choose how many entries to show for each page of table.
+  
+  [b] You could choose which page of table you would like to view.
+  
+  [c] The search function is available for you to search the specific term for viewing the world event. 

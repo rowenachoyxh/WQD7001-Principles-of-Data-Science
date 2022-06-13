@@ -1,0 +1,79 @@
+---
+output: 
+  html_document: 
+    theme: cosmo
+    highlight: textmate
+number_sections: false
+self_contained: true
+lib_dir: libs
+fig_caption: true
+toc: false
+toc_float: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **Analysis on Reviving International Tourism in Malaysia**
+
+```{r pressure1, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("my01.jpg")
+
+```
+
+
+
+Tourism is one of the hardest hit sector by COVID-19 in Malaysia. In fact, tourism is essential for the success of many economies around the world. 
+
+
+
+Thus, the interest of our project is to study: 
+
+
+* _Which were the countries visited Malaysia the most before or after the pandemic?_ 
+
+* _How did COVID-19 affect the number of tourists visiting Malaysia?_ 
+
+* _Was there any seasonality on the arrivals of tourists from any specific country?_ 
+
+Our motivation is to build a dashboard that allows people to analyse and better understand the trends of tourist arrivals to Malaysia before and after the pandemic. 
+
+This is a group project for the subject of "**WQD7001 Principles of Data Science**" contributed by 
+
+* Lim Jie-Ying (S2115935) 
+
+* Lee Voon Chung (S2142277) 
+
+* Lee Voon Hee (S2140816) 
+
+* Lim Kim Hoong (S2151909) 
+
+* Rowena Choy Xin Hui (S2153101) 
+
+Guided by **A. Prof. Dr. Salimah Mokhtar** 
+
+```{r pressure2, echo=FALSE, out.width = '20%'}
+knitr::include_graphics("fsktm01.png")
+knitr::include_graphics("um01.png")
+```
+
+## Datasets
+```{r pressure3, echo=FALSE, out.width = '50%'}
+knitr::include_graphics("tourismgov1.jpg")
+```
+
+Ministry of Tourism, Arts and Culture of Malaysia published the monthly tourist arrivals data from 2000 to 2021 by Country, which can be downloaded here: [tourism.gov.my](https://mytourismdata.tourism.gov.my).
+
+The list of World events was scrapped from the Wikipedia world event pages.
+
+## Coding of Project 
+
+This Shiny app and documentation are written in R. 
+
+**Full code** is freely available at: 
+[Github](https://github.com/LimKimHoong/WQD7001---M14)
+
+```{r pressure4, echo=FALSE, out.width = '20%'}
+knitr::include_graphics("github.png")
+```
