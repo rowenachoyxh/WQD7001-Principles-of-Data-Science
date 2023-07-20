@@ -1,7 +1,7 @@
 # WQD-7001---M16
 
 
- This dashboard is built in R Shiny and used R Markdown to publish on this website. This is the documentation of we application that describes technical details of how the application was built, how was data cleaned and organised to load for the visualisation of this dashboard.
+ This dashboard is built in R Shiny and used R Markdown to publish on this website. This is the documentation of our application that describes technical details of how the application was built, how was data cleaned and organised to load for the visualisation of this dashboard.
  
  The “Touri-Scope” app allows a user to look up a country of choice in the world and year, and see what the arrival of tourist is for that country over the chosen year/month. It also allow the user to view the event happen on the country on the chosen year.
 
